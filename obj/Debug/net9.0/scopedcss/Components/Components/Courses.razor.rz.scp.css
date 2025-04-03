@@ -1,0 +1,14 @@
+/* Courses.razor.css */
+:host[b-91jofeekfe] {
+    display: block;
+    margin: 1rem 0;
+}
+
+ul[b-91jofeekfe] {
+    padding-left: 1.5rem;
+    font-style: italic;
+}
+
+li[b-91jofeekfe] {
+    margin-bottom: 0.5rem;
+}

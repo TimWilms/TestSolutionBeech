@@ -1,0 +1,17 @@
+@page "/courses"
+
+<h3>Course List</h3>
+
+@if (_courses == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ul>
+        @foreach (var course in _courses)
+        {
+            <li>@course.CourseName</li>
+        }
+    </ul>
+}
